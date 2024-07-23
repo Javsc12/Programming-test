@@ -1,0 +1,6 @@
+# Usa la imagen base de Alpine Linux
+FROM alpine:latest
+
+# Establece el comando que se ejecutará al iniciar el contenedor
+CMD ["echo", "Hello, World!"]
+
